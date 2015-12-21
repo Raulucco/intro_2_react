@@ -3,7 +3,7 @@
 var React = require('react');
 
 var Navigation = React.createClass({
-    render: fucntion () {
+    render: function () {
         return (
             <ul className="navigation">
                 <li className="nav-item"><a href="#" onClick={this.props.onNav.bind(null, this._nav("define"))}>Define a Workout </a></li>
@@ -12,7 +12,7 @@ var Navigation = React.createClass({
                 <li className="nav-item"><a href="#" onClick={this.props.onNav.bind(null, this.onLogout}>Logout </a></li>
             </ul>
         );
-    }
+    },
 
     _nav: function (view) {
         return view;

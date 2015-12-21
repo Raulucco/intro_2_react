@@ -21,7 +21,7 @@ var CreateAccount = React.createClass({
                 <button id="signIn" onClick={this.props.onAuthComplete(null, this.createAccount)}>Create Account</button>
             </div>
         );
-    }
+    },
 
     _createAccount: function () {
         return true;

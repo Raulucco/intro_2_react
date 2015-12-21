@@ -17,11 +17,11 @@ var Signin = React.createClass({
                 <button id="signIn" onClick={this.props.onAuthComplete.bind(null, this._doAuth)}>Sign In</button>
             </div>
         );
-    }
+    },
 
     _doAuth: function () {
         return true;
     }
 });
 
-module.exports = SignIn;
+module.exports = Signin;
